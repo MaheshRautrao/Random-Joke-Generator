@@ -3,3 +3,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html,body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content:center;
+    align-items: center;
+}
+
+.wrapper{
+    width: 500px;
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.emoji{
+    display: grid;
+    font-size: 3rem;
+    place-content: center;
+}
+.joke{
+    padding: 20px 20px;
+}
+
+.joke {
+   color: white;
+   font-size: 1.5rem;
+}
+
+.btn{
+    display: grid;
+    place-content: center;
+    padding: 20px;
+}
+.btn button{
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
